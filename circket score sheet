@@ -4,30 +4,30 @@ int main()
  int runs,wicket,over,extras,date,time,eb[11],sb[11],i,j,m,n;
  char ba[11],bo[11];
  printf("enter the number of batsman");
- scanf("%d",&m);
+ scanf("%d\n",&m);
  printf("enter the name of the batsman and bowler");
  for(i=0;i<m;i++)
 {
-    scanf("%c",&ba[i]);
+    scanf("%c\n",&ba[i]);
  }
  printf("enter the number of bowlers");
- scanf("%d",&n);
+ scanf("%d\n",&n);
  for(j=0;j<n;j++)
  {
-    scanf("%c",&bo[j]);
+    scanf("%c\n",&bo[j]);
 }
 printf("enterthe strike rate of batsman");
 for(i=0;i<m;i++)
 {
- scanf("%d",&sb[i]);
+ scanf("%d\n",&sb[i]);
 }
 printf("enter the economy rate of bowler");
 for(j=0;j<n;j++)
 {
-    scanf("%d",&eb[j]);
+    scanf("%d\n",&eb[j]);
 }
 printf("enter the match date and time");
-scanf("%d %d",&date,&time);
+scanf("%d %d\n",&date,&time);
 printf("circket score sheet    date:%d       time:%d",date,time);
 for(i=0;i<m;i++)
 printf("name of batsman       strike rate of batsman       over     runs      wickets       extras\n"  );     
